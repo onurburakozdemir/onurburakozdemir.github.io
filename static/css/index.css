@@ -170,3 +170,20 @@ body {
   max-width: 100%;
   height: auto;
 }
+
+
+.profile-picture {
+    position: absolute;
+    top: 50px;  /* Adjust this value to move it up or down */
+    left: 20px; /* Adjust this value to move it left or right */
+    width: 150px;  /* Adjust this value to change the size */
+    height: 150px; /* Adjust this value to change the size */
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.profile-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
