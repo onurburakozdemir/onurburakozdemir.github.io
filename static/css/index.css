@@ -186,8 +186,8 @@ body {
     position: absolute;
     top: 60px;  /* Adjust this value to move it up or down */
     left: -10px; /* Adjust this value to move it left or right */
-    width: 150px;  /* Adjust this value to change the size */
-    height: 150px; /* Adjust this value to change the size */
+    width: 170px;  /* Adjust this value to change the size */
+    height: 170px; /* Adjust this value to change the size */
     overflow: hidden;
     border-radius: 50%;
 }
