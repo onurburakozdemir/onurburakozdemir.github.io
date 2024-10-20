@@ -175,7 +175,7 @@ body {
 .profile-picture {
     position: absolute;
     top: 50px;  /* Adjust this value to move it up or down */
-    left: 20px; /* Adjust this value to move it left or right */
+    left: -70px; /* Adjust this value to move it left or right */
     width: 150px;  /* Adjust this value to change the size */
     height: 150px; /* Adjust this value to change the size */
     overflow: hidden;
