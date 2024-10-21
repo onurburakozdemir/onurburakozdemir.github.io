@@ -32,18 +32,18 @@ body {
 }
 
 .publication-banner {
-  width: 100%;
+  width: 300%;
   overflow: hidden; /* In case the video is larger than the banner */
 }
 
 .video-container {
-  width: 100%;
+  width: 300%;
   display: flex;
   justify-content: center;
 }
 
 .publication-banner video {
-  max-width: 100%;
+  max-width: 300%;
   height: auto;
   object-fit: contain;
 }
@@ -95,7 +95,7 @@ body {
 
 .publication-video {
     position: relative;
-    width: 100%;
+    width: 300%;
     height: 0;
     padding-bottom: 56.25%;
 
@@ -107,7 +107,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 300%;
     height: 100%;
 }
 
@@ -177,7 +177,7 @@ body {
 }
 
 .video-center video {
-  max-width: 100%;
+  max-width: 300%;
   height: auto;
 }
 
