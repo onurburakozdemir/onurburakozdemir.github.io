@@ -2,155 +2,126 @@ body {
   font-family: 'Noto Sans', sans-serif;
 }
 
-
 .footer .icon-link {
-    font-size: 25px;
-    color: #000;
+  font-size: 25px;
+  color: #000;
 }
 
 .link-block a {
-    margin-top: 5px;
-    margin-bottom: 5px;
+  margin: 5px 0;
 }
 
 .dnerf {
   font-variant: small-caps;
 }
 
-
-.teaser .hero-body {
-  padding-top: 0;
-  padding-bottom: 3rem;
-}
-
 .teaser {
   font-family: 'Google Sans', sans-serif;
 }
 
-
-.publication-title {
+.teaser .hero-body {
+  padding-bottom: 3rem;
 }
 
-.publication-banner {
-  width: 300%;
-  overflow: hidden; /* In case the video is larger than the banner */
-}
-
-.video-container {
-  width: 300%;
-  display: flex;
-  justify-content: center;
-}
-
-.publication-banner video {
-  max-width: 300%;
-  height: auto;
-  object-fit: contain;
-}
-
-.publication-header .hero-body {
-}
-
-.publication-title {
-    font-family: 'Google Sans', sans-serif;
-}
-
-.publication-authors {
-    font-family: 'Google Sans', sans-serif;
+.publication-title, .publication-authors {
+  font-family: 'Google Sans', sans-serif;
 }
 
 .publication-venue {
-    color: #555;
-    width: fit-content;
-    font-weight: bold;
+  color: #555;
+  width: fit-content;
+  font-weight: bold;
 }
 
 .publication-awards {
-    color: #ff3860;
-    width: fit-content;
-    font-weight: bolder;
-}
-
-.publication-authors {
+  color: #ff3860;
+  width: fit-content;
+  font-weight: bolder;
 }
 
 .publication-authors a {
-   color: hsl(204, 86%, 53%) !important;
+  color: hsl(204, 86%, 53%) !important;
 }
 
 .publication-authors a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .author-block {
   display: inline-block;
 }
 
-.publication-banner img {
+.publication-banner {
+  width: 300%;
+  overflow: hidden;
 }
 
-.publication-authors {
-  /*color: #4286f4;*/
+.publication-banner video, .video-center video {
+  max-width: 300%;
+  height: auto;
+  object-fit: contain;
 }
 
 .publication-video {
-    position: relative;
-    width: 300%;
-    height: 0;
-    padding-bottom: 56.25%;
-
-    overflow: hidden;
-    border-radius: 10px !important;
+  position: relative;
+  width: 300%;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+  border-radius: 10px !important;
 }
 
 .publication-video iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 300%;
-    height: 100%;
-}
-
-.publication-body img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300%;
+  height: 100%;
 }
 
 .results-carousel {
-  max-width: 1000px;  /* Set a maximum width for the carousel */
-  margin: 0 auto;    /* Center the carousel */
-  overflow: hidden;   /* Ensure overflow is hidden for neatness */
+  max-width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 .results-carousel .item {
-  margin: 10px;      /* Adjust margin between items */
+  margin: 10px;
   overflow: hidden;
-  padding: 10px;     /* Reduce padding to make items more compact */
-  font-size: 0;      /* Hides text but retains space for items */
-  text-align: center; /* Center align content within each item */
+  padding: 10px;
+  font-size: 0;
+  text-align: center;
 }
 
 .results-carousel img {
-  max-width: 100%;   /* Ensure images do not exceed item width */
-  height: auto;      /* Maintain aspect ratio */
-  cursor: pointer;   /* Change cursor to pointer for clickable images */
+  max-width: 100%;
+  height: auto;
+  cursor: pointer;
 }
-
 
 .results-carousel video {
   margin: 0;
 }
 
 .slider-pagination .slider-page {
-  background: #000000;
+  background: #000;
 }
 
-.eql-cntrb { 
+.eql-cntrb {
   font-size: smaller;
 }
 
 .video-wrapper {
   position: relative;
   width: 100%;
-  padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+  padding-bottom: 56.25%;
+}
+
+.papers-section {
+  background-color: #f5f5f5; /* Matches the is-light background */
+}
+
+.video-section {
+  background-color: #f5f5f5; /* Matches the is-light background */
 }
 
 .video-wrapper iframe {
@@ -163,37 +134,26 @@ body {
 }
 
 .hero-body .container {
-  max-width: 960px; /* Adjust this value as needed */
+  max-width: 960px;
 }
 
-.column.is-two-thirds {
+.column.is-two-thirds, .video-center {
   display: flex;
   justify-content: center;
 }
-
-.video-center {
-  display: flex;
-  justify-content: center;
-}
-
-.video-center video {
-  max-width: 300%;
-  height: auto;
-}
-
 
 .profile-picture {
-    position: absolute;
-    top: 60px;  /* Adjust this value to move it up or down */
-    left: -10px; /* Adjust this value to move it left or right */
-    width: 170px;  /* Adjust this value to change the size */
-    height: 170px; /* Adjust this value to change the size */
-    overflow: hidden;
-    border-radius: 50%;
+  position: absolute;
+  top: 60px;
+  left: -10px;
+  width: 170px;
+  height: 170px;
+  overflow: hidden;
+  border-radius: 50%;
 }
 
 .profile-picture img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
