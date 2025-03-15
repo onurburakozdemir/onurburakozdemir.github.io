@@ -27,6 +27,36 @@
   <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="static/css/index.css">
+  <style>
+    .dark-theme {
+      background-color: #121212;
+      color: white;
+    }
+    .dark-theme * {
+      color: white !important;
+    }
+    .dark-theme .hero, .dark-theme .section {
+      background-color: #121212 !important;
+    }
+    .dark-theme a {
+      color: white;
+    }
+    .dark-theme .footer {
+      background-color: #121212 !important;
+      color: white;
+    }
+    .dark-theme .papers-section,
+    .dark-theme .projects-section,
+    .dark-theme .hero.is-light,
+    .dark-theme .section.is-light {
+      background-color: #121212 !important;
+    }
+    .dark-theme .card,
+    .dark-theme .card-content {
+      background-color: #121212 !important;
+      color: white;
+    }
+  </style>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
@@ -42,7 +72,8 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-       <h1 class="title is-1 publication-title">Onur Burak Özdemir </h1>
+       <h1 class="title is-1 publication-title" style="margin-top: 20px;">Onur Burak Özdemir </h1>
+       <button id="dark-mode-toggle" style="position: absolute; top: 10px; right: 10px; background: none; border: none; font-size: 1.5em; cursor: pointer;">☀️</button>
        <!-- <div class="is-size-5 publication-authors">
               <span class="author-block">
                 <a href="https://www.linkedin.com/in/onurburakozdemir" target="_blank">Onur Burak Özdemir</a><sup>*</sup>,</span>
@@ -143,10 +174,10 @@
   <!-- End paper abstract -->
 
 
-  <section class="section thesis-section" style="margin-top: 15px;">
+  <section class="section thesis-section" style="margin-top: 10px;">
   <div class="container is-max-desktop">
     <h2 class="title is-3">My Master's Thesis</h2>
-    <h2 class="subtitle">Applications of Synthetic Spatiotemporal Signals In Mammalian Cells</h2>
+    <h2 class="subtitle" style="margin-top: 2px;">Applications of Synthetic Spatiotemporal Signals In Mammalian Cells</h2>
     <div class="columns is-centered">
       <div class="column is-7" style="display: flex; justify-content: right;">
         <video poster="" id="video1" autoplay controls muted loop style="width: 75%; height: auto; border-radius: 40px;">
@@ -504,4 +535,15 @@ End image carousel -->
       </p>
     </div>
   </footer>
+  <script>
+    const toggleButton = document.getElementById('dark-mode-toggle');
+    toggleButton.addEventListener('click', () => {
+      document.body.classList.toggle('dark-theme');
+      if (document.body.classList.contains('dark-theme')) {
+        toggleButton.innerHTML = '🌙';
+      } else {
+        toggleButton.innerHTML = '☀️';
+      }
+    });
+  </script>
 </body>
