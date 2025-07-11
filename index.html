@@ -165,7 +165,11 @@
         <div class="column is-four-fifths">
           <div class="content has-text-justified">
             <p>
-            Hi! I'm Onur. I aim to bridge the gap between physics, electronics, and biology, with help of programming, machine learning, and image analysis. In my most recent research I focus on synthetic biological systems, which is in the intersection of biology and physics. Here you can explore my portfolio, including my research papers, ongoing Master's Thesis, and my goal of integrating diverse scientific disciplines.
+              Hi, I’m Onur 👋🏻
+            </p>
+            <p>
+              I’m a physicist-engineer working across biology, electronics, and computation. I have a diverse project background: from optical glucose sensors to forensics research to synthetic biology, and a heck of a lot of programming. I build sensors, analyze microscopy data, develop open-source tools, and engineer mammalian cells. Whether it’s image analysis, big data pipelines, or lab prototyping, I like working where disciplines overlap. This site collects my research, software projects, and ongoing experiments across those intersections.
+            </p>
           </div>
         </div>
       </div>
@@ -176,8 +180,10 @@
 
   <section class="section thesis-section" style="margin-top: 10px;">
   <div class="container is-max-desktop">
-    <h2 class="title is-3">My Master's Thesis</h2>
-    <h2 class="subtitle" style="margin-top: 2px;">Applications of Synthetic Spatiotemporal Signals In Mammalian Cells @ Westmeyer Lab & Simmel Lab</h2>
+    <h2 class="title is-3">
+      My Master's Thesis
+    </h2>
+    <h2 class="subtitle" style="margin-top: 2px;">Applications of Synthetic Spatiotemporal Signals In Mammalian Cells @ Westmeyer Lab & Simmel Lab in Munich Technical University</h2>
     <div class="columns is-centered">
       <div class="column is-7" style="display: flex; justify-content: right;">
         <video poster="" id="video1" autoplay controls muted loop style="width: 75%; height: auto; border-radius: 40px;">
@@ -192,6 +198,9 @@
     </div>
     <div style="text-align: justify; font-size: 16px; margin-top: 12px; max-width: 800px; margin-left: auto; margin-right: auto;">
       MinDE protein oscillations expressed in HEK cells, with unique barcode frequencies. Green sfGFP-MinD, red MinE-mCherry.
+    </div>
+    <div style="text-align: justify; font-size: 16px; margin-top: 40px; max-width: 1000px; margin-left: auto; margin-right: auto;">
+      This thesis explores whether self-organizing protein patterns inside mammalian cells can be used to move transmembrane proteins and generate synthetic signals at the cell surface. I reconstituted MinDE oscillations in HEK293T cells and developed image analysis tools to quantify their dynamics. My aim was to couple these intracellular waves to an engineered transmembrane protein in order to create a spatially modulated magnetic output signal outside the cell. The broader goal is to enable programmable cell–environment communication using synthetic intracellular dynamics.
     </div>
   </div>
 </section>
@@ -218,10 +227,89 @@
   </section>
   -->
 
-  <!-- Papers Section -->
+<!-- Projects Section -->
 <section class="section papers-section">
   <div class="container is-max-desktop">
-    <h2 class="title is-3">Papers</h2>
+    <h2 class="title is-3">Software Projects</h2>
+
+      <!-- 3D Microscopy Video Feature -->
+      <section class="hero is-small">
+        <div class="hero-body"> 
+          <div class="container">
+            <h2 class="title is-5 has-text-centered">3D Microscopy Segmentation and Analysis</h2>
+            <div class="columns is-centered">
+              <div class="column is-two-thirds has-text-centered">
+                <div class="video-wrapper">
+                  <iframe src="https://www.youtube.com/embed/jrUo7xiFwYA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="width: 100%; border-radius: 15px;"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="hero is-small" style="margin-bottom: 40px;"></section>
+
+    <div class="columns is-multiline">
+      
+      <!-- CellPlotter Project -->
+      <div class="column is-one-third">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="https://westmeyer-lab.github.io/CellPlotter/Napari.png" alt="CellPlotter Screenshot">
+            </figure>
+          </div>
+          <div class="card-content">
+            <h3 class="title is-5">CellPlotter</h3>
+            <p>This is a Napari plugin I developed for interactive and automated cell segmentation, analysis, and publication-ready plotting.</p>
+            <br>
+            <a href="https://westmeyer-lab.github.io/CellPlotter/" target="_blank" class="button is-normal is-rounded">View Project</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- EncapsulinAnalyzer Project -->
+      <div class="column is-one-third">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="https://raw.githubusercontent.com/Westmeyer-Lab/EncapsulinAnalyzer/main/encapsulinNapariDemo.png" alt="EncapsulinAnalyzer Screenshot">" alt="EncapsulinAnalyzer Screenshot">
+            </figure>
+          </div>
+          <div class="card-content">
+            <h3 class="title is-5">EncapsulinAnalyzer</h3>
+            <p>Another Napari plugin I made for analyzing encapsulin protein EM images, enabling advanced quantitative analysis, and producing radial plots for further analysis.</p>
+            <br>
+            <a href="https://github.com/Westmeyer-Lab/EncapsulinAnalyzer?tab=readme-ov-file" target="_blank" class="button is-normal is-rounded">View Project</a>
+          </div>
+        </div>
+      </div>
+      <!-- Solar-Cell-Assistant Project -->
+      <div class="column is-one-third">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="https://raw.githubusercontent.com/onurburakozdemir/Solar-Cell-Assistant/main/Solar%20Cell%20Assistant%20Matlab%20Code/program.png" alt="Solar-Cell-Assistant Screenshot">
+            </figure>
+          </div>
+          <div class="card-content">
+            <h3 class="title is-5">Solar-Cell-Assistant</h3>
+            <p>A Matlab based tool I developed for analyzing space qualified solar cell performance and health. Has a UI and uses IOcontrol package to control various lab instruments. Generates dark I-V plots, and calculates deviation from standard profile.</p>
+            <br>
+            <a href="https://github.com/onurburakozdemir/Solar-Cell-Assistant" target="_blank" class="button is-normal is-rounded">View Project</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- Papers Section -->
+<section class="section projects-section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3">Published Papers</h2>
     <div class="columns is-multiline">
 
       <!-- Paper 5 -->
@@ -314,65 +402,6 @@
   </div>
 </section>
 
-<!-- Projects Section -->
-<section class="section projects-section">
-  <div class="container is-max-desktop">
-    <h2 class="title is-3">Projects</h2>
-    <div class="columns is-multiline">
-      
-      <!-- CellPlotter Project -->
-      <div class="column is-one-third">
-        <div class="card">
-          <div class="card-image">
-            <figure class="image is-4by3">
-              <img src="https://westmeyer-lab.github.io/CellPlotter/Napari.png" alt="CellPlotter Screenshot">
-            </figure>
-          </div>
-          <div class="card-content">
-            <h3 class="title is-5">CellPlotter</h3>
-            <p>This is a Napari plugin I developed for interactive and automated cell segmentation, analysis, and publication-ready plotting.</p>
-            <br>
-            <a href="https://westmeyer-lab.github.io/CellPlotter/" target="_blank" class="button is-normal is-rounded">View Project</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- EncapsulinAnalyzer Project -->
-      <div class="column is-one-third">
-        <div class="card">
-          <div class="card-image">
-            <figure class="image is-4by3">
-              <img src="https://raw.githubusercontent.com/Westmeyer-Lab/EncapsulinAnalyzer/main/encapsulinNapariDemo.png" alt="EncapsulinAnalyzer Screenshot">" alt="EncapsulinAnalyzer Screenshot">
-            </figure>
-          </div>
-          <div class="card-content">
-            <h3 class="title is-5">EncapsulinAnalyzer</h3>
-            <p>Another Napari plugin I made for analyzing encapsulin protein EM images, enabling advanced quantitative analysis, and producing radial plots for further analysis.</p>
-            <br>
-            <a href="https://github.com/Westmeyer-Lab/EncapsulinAnalyzer?tab=readme-ov-file" target="_blank" class="button is-normal is-rounded">View Project</a>
-          </div>
-        </div>
-      </div>
-      <!-- Solar-Cell-Assistant Project -->
-      <div class="column is-one-third">
-        <div class="card">
-          <div class="card-image">
-            <figure class="image is-4by3">
-              <img src="https://raw.githubusercontent.com/onurburakozdemir/Solar-Cell-Assistant/main/Solar%20Cell%20Assistant%20Matlab%20Code/program.png" alt="Solar-Cell-Assistant Screenshot">
-            </figure>
-          </div>
-          <div class="card-content">
-            <h3 class="title is-5">Solar-Cell-Assistant</h3>
-            <p>A Matlab based tool I developed for analyzing space qualified solar cell performance and health. Has a UI and uses IOcontrol package to control various lab instruments. Generates dark I-V plots, and calculates deviation from standard profile.</p>
-            <br>
-            <a href="https://github.com/onurburakozdemir/Solar-Cell-Assistant" target="_blank" class="button is-normal is-rounded">View Project</a>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
 
    <!--  Image carousel 
 <section class="hero is-small is-light">
